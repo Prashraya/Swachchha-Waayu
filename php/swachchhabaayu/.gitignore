@@ -1,0 +1,8 @@
+.idea
+/assets/phpthumb/cache/*
+assets/img/Thumbs.db
+/timthumb/cache/
+/uploads/.tmb/
+application/config/development/database.php
+/nbproject
+*.db

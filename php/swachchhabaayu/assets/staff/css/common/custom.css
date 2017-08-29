@@ -1,0 +1,110 @@
+/*Start Default*/
+
+span.error{
+    color:red;
+}
+.disabled, .btndisable {
+    background-color: #ccc !important;
+    background-color: #ccc !important;
+    color-rendering: #fff;
+    border-color: #ccc !important;
+}
+
+.box-tools .btn {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.btn-inactive {
+  background-color: rgb(204, 204, 204);
+  border-color: rgb(204, 204, 204);
+}
+
+.btn-inactive:hover,
+.btn-inactive:focus {
+    background-color: #008D4C;
+    border-color: #008D4C;
+}
+
+/*End Default*/
+
+/*Start Table Default*/
+table thead {
+    background: rgb(44, 59, 65);
+    color: rgb(255, 255, 255);
+}
+
+tfoot#table-search-row th {
+  background-color: rgb(242, 242, 242);
+}
+
+tfoot#table-search-row th {
+  border: none;
+}
+
+tfoot#table-search-row input {
+  padding: 6px 12px;
+  border: none;
+}
+
+table tbody .btn {
+  margin: 0 !important;
+  padding: 5px 6px;
+}
+
+.unviewed {
+    background-color: #f9f9f9;
+}
+
+.viewed {
+    background-color: transparent;
+}
+
+.unviewed .btn-info {
+  background-color: #01b75c;
+  border-color: #01b75c;
+}
+
+.viewed .btn-info {
+  background-color:  #00c0ef;
+  border-color:  #00c0ef;
+}
+
+.showme i {
+  font-size: 16px;
+}
+/*End Table Default*/
+
+/*Start Sorting*/
+li.ui-sortable-handle {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+.ui-sortable-handle span {
+  background-color: rgb(242, 242, 242);
+  box-shadow: 0 3px 2px -1px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 0 10px;
+  padding: 5px 15px;
+}
+
+li.ui-sortable-handle ul {
+  padding: 0 0 0 15px;
+}
+
+li.ui-sortable-handle ul li {
+  background-color: rgb(248, 248, 248);
+  padding: 5px 15px;
+  margin: 0 0 10px;
+}
+/*End Sorting*/
+
+.page-edit {
+    padding: 15px 5px;
+}
+.page-edit  label {
+    float: left;
+    width: 25%;
+}
